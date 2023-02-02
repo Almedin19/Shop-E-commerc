@@ -1,0 +1,489 @@
+@media (min-width: 570px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .end-menu {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #burger {
+    font-size: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 60px;
+    float: right;
+    color: blue;
+    display: block;
+  }
+
+  .blu {
+    color: blue;
+  }
+
+  #list {
+    display: none;
+    position: relative;
+    right: 250px;
+    bottom: 20px;
+    margin-bottom: 50px;
+    float: right;
+    margin: 0px auto;
+  }
+
+  #list,
+  li,
+  a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    margin: 10px;
+    color: rgb(28, 51, 75);
+  }
+
+  #list a:hover {
+    border-bottom: 3px solid dodgerblue;
+  }
+
+  .logo {
+    padding: 20px;
+  }
+
+  .logo b {
+    font-size: 24px;
+    position: relative;
+    bottom: 10px;
+  }
+
+  /* Main menu  */
+
+  .slider1 img {
+    width: 30%;
+    z-index: 99999999999;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 80px;
+    display: block;
+  }
+
+  main {
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+  }
+
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aliceblue;
+  }
+
+  .shop-speech {
+    min-width: 400px;
+    padding: 60px;
+    line-height: 25px;
+    font-size: 20px;
+  }
+
+  .shop-speech h3 {
+    color: black;
+    display: block;
+  }
+
+  .empty {
+    height: 400px;
+    width: 250px;
+    background-color: rgb(42, 42, 242);
+  }
+  .browse {
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(68, 68, 212);
+    color: white;
+    border: 2px solid rgb(68, 68, 212);
+    cursor: pointer;
+    width: 130px;
+  }
+
+  .browse:hover {
+    background: none;
+
+    color: black;
+  }
+
+  /* First Slider */
+
+  .picture {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    overflow-y: scroll;
+  }
+
+  .picture img {
+    margin-top: 50px;
+    width: 100%;
+    box-shadow: 0px 80px 50px 0px rgb(168, 165, 165);
+    border-radius: 9%;
+    margin-bottom: 70px;
+    margin: 50px;
+  }
+
+  /* Aside Treding  */
+
+  aside {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  aside .card-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    place-items: center;
+  }
+
+  aside .treding {
+    text-align: center;
+  }
+
+  .treding strong {
+    border-bottom: 2px solid blue;
+  }
+
+  .treding h1 strong {
+    font-size: 45px;
+  }
+
+  /* Reklam Slider */
+
+  .reklam {
+    background: rgb(148, 187, 233);
+    background: radial-gradient(
+      circle,
+      rgba(148, 187, 233, 1) 0%,
+      rgba(78, 104, 195, 1) 100%
+    );
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  marquee {
+    text-align: center;
+  }
+
+  .rekalm-design {
+    padding: 30px;
+  }
+  .shop {
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(68, 68, 212);
+    color: white;
+    border: 2px solid rgb(68, 68, 212);
+    cursor: pointer;
+    width: 130px;
+    margin-top: 10px;
+  }
+
+  .shop:hover {
+    background: none;
+    color: black;
+  }
+
+  /* Section Slider */
+
+  section {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .treding-second h1 strong {
+    font-size: 45px;
+  }
+
+  section .treding-second {
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .treding-second strong {
+    border-bottom: 2px solid blue;
+  }
+
+  /* Slider section*/
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1300px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    text-align: center;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    transition: 2s;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .text a {
+    color: black;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Latest NEws-Blog */
+
+  .latest-news {
+    width: 100%;
+    margin-top: 170px;
+  }
+
+  .treding-third h1 strong {
+    font-size: 35px;
+  }
+
+  .treding-third {
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .treding-third strong {
+    border-bottom: 2px solid blue;
+  }
+
+  .menu_blog-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .card-blog {
+    padding: 30px;
+    line-height: 25px;
+  }
+
+  .card-blog a {
+    font-size: 23px;
+    color: black;
+  }
+
+  .card-blog p {
+    color: #717171;
+    font-size: 15px;
+  }
+
+  .card-blog a:hover {
+    color: rgb(46, 46, 252);
+  }
+
+  /* Update form */
+
+  .update {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+
+  .update .form {
+    margin: 0px auto;
+    width: 90%;
+    height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 70px 0px rgb(184, 181, 181);
+  }
+
+  form {
+    padding: 30px;
+    margin: 0px auto;
+  }
+
+  form,
+  p {
+    color: #717171;
+  }
+
+  input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+    outline: none;
+  }
+
+  input[type="email"]:focus {
+    border: 3px solid dodgerblue;
+  }
+
+  .subscribe {
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(50, 89, 232);
+    border: 1px solid rgb(50, 89, 232);
+    margin-left: 10px;
+  }
+
+  .subscribe:hover {
+    background: none;
+    color: black;
+  }
+
+  /* Footer menu */
+
+  footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 50px;
+    background-color: rgb(11, 11, 79);
+  }
+
+  .our-mission {
+    padding: 50px;
+    color: white;
+  }
+
+  .quick-links a {
+    display: block;
+    color: white;
+  }
+
+  .quick-links h2 {
+    color: white;
+  }
+
+  .quick-links a:hover {
+    color: dodgerblue;
+  }
+
+  .gallery {
+    padding: 50px;
+  }
+
+  .gallery h2 {
+    color: white;
+  }
+
+  .contact-menu h1 {
+    color: white;
+    line-height: 80px;
+  }
+
+  .contact a,
+  h3,
+  h4 {
+    color: white;
+  }
+
+  .contact a,
+  h3 {
+    display: inline;
+    color: white;
+  }
+
+  address {
+    background-color: rgb(39, 39, 101);
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+}

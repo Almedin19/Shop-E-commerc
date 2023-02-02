@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- Header menu -->
+    <header>
+      <div class="logo">
+        <input
+          type="image"
+          src="./images/logo/logo-1.jpg"
+          width="50px"
+          alt="logo"
+        />
+        <b class="title">E-shop</b>
+      </div>
+
+      <div id="burger"><i class="bi bi-list"></i></div>
+      <ul id="list">
+        <li><a href="home.html" class="blu">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="pages.html">Pages</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="end-menu">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-cart2"></i>
+        <button type="submit" class="btn-buy">Buy Now</button>
+      </div>
+    </header>
+
+    <!-- Pesto menu -->
+
+    <div class="pesto-cat">
+      <div class="pesto-container">
+        <h1>Shop Category</h1>
+        <p class="home-sh">Home-Shop Category</p>
+      </div>
+    </div>
+
+    <!-- Radio menu -->
+
+    <aside>
+      <div class="range-menu">
+        <h1>Browse Categories</h1>
+        <label for="">
+          <div class="range-link">
+            <a href=""><input type="radio" />Men (3600)</a>
+            <br />
+            <a href=""><input type="radio" />Women (3600)</a>
+            <br />
+            <a href=""><input type="radio" />Accessories (3600)</a>
+            <br />
+            <a href=""><input type="radio" />Footwear (3600)</a>
+            <br />
+            <a href=""><input type="radio" />Bay item (3600)</a>
+            <br />
+            <a href=""><input type="radio" />Electronics (3600)</a>
+            <br />
+            <a href=""><input type="radio" />Food (3600)</a>
+            <br />
+          </div>
+        </label>
+      </div>
+    </aside>
+
+    <!-- Section range menu -->
+
+    <div class="section-range-menu">
+      <div class="section-menu">
+        <h1>Product Filters</h1>
+        <div class="section-range">
+          <h4>Brands</h4>
+          <label for="">
+            <a href=""><input type="radio" />Apple(29)</a>
+            <br />
+            <a href=""><input type="radio" />Asus(29)</a>
+            <br />
+            <a href=""><input type="radio" />Gionee(19)</a>
+            <br />
+            <a href=""><input type="radio" />Micromax(19)</a>
+            <br />
+            <a href=""><input type="radio" />Samsung(19)</a>
+          </label>
+          <br /><br />
+
+          <hr />
+
+          <br /><br />
+          <h4>Color</h4>
+          <label for="">
+            <a href=""><input type="radio" />Black(29)</a>
+            <br />
+            <a href=""><input type="radio" />Black Leather(29)</a>
+            <br />
+            <a href=""><input type="radio" />Black with red(19)</a>
+            <br />
+            <a href=""><input type="radio" />Gold(19)</a>
+            <br />
+            <a href=""><input type="radio" />Spacegrey(19)</a>
+          </label>
+          <br /><br />
+
+          <hr />
+
+          <br /><br />
+          <h4>Price</h4>
+          <form action="" oninput="val.value = parseInt(price.value)">
+            <input
+              style="color: dodgerblue; width: 200px"
+              type="range"
+              name="price"
+              id="price"
+              min="0"
+              max="100"
+              value="60"
+              placeholder="1"
+            />
+            <output name="val" for="price">$</output>
+            <br />
+            <select title="default" class="default">
+              <option value="">Default sort</option>
+              <option value="">Default sort</option>
+              <option value="">Default sort</option>
+            </select>
+
+            <select title="show" class="show">
+              <option value="">Show 12</option>
+              <option value="">Show 12</option>
+              <option value="">Show 12</option>
+            </select>
+
+            <div class="search">
+              <a href=""
+                ><input
+                  type="text"
+                  placeholder="Search"
+                  class="text-search" /><i class="bi bi-search"></i
+              ></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- GalleryTreding -->
+
+    <aside>
+      <div class="treding">
+        <span>Popular Item in the market</span>
+        <h1>Trending <strong>Product</strong></h1>
+      </div>
+      <div class="card-gallery">
+        <div class="card">
+          <img src="./images/logo/product1.png" alt="" width="90%" />
+          <p>Accessories</p>
+          <a href="">Quartz Belt Watch</a>
+          <br /><br />
+          <span>$150.00</span>
+        </div>
+        <div class="card">
+          <img src="./images/logo/product2.png" alt="" width="90%" />
+          <p>Beauty</p>
+          <a href="">Women Freshwash</a>
+          <br /><br />
+          <span>$150.00</span>
+        </div>
+        <div class="card">
+          <img src="./images/logo/product3.png" alt="" width="90%" />
+          <p>Decor</p>
+          <a href="">Room Flash Light</a>
+          <br /><br />
+          <span>$150.00</span>
+        </div>
+        <div class="card">
+          <img src="./images/logo/product4.png" alt="" width="90%" />
+          <p>Decor</p>
+          <a href="">Room Flash Light</a>
+          <br /><br />
+          <span>$150.00</span>
+        </div>
+        <div class="card">
+          <img src="./images/logo/product5.png" alt="" width="90%" />
+          <p>Accessories</p>
+          <a href="">Man Office Bag</a>
+          <br /><br />
+          <span>$150.00</span>
+        </div>
+        <div class="card">
+          <img src="./images/logo/product6.png" alt="" width="90%" />
+          <p>Kids Toy</p>
+          <a href="">Charging Car</a>
+          <br /><br />
+          <span>$150.00</span>
+        </div>
+        <div class="card">
+          <img src="./images/logo/product7.png" alt="" width="90%" />
+          <p>Accessories</p>
+          <a href="">Blutooth Speaker</a>
+          <br /><br />
+          <span>$150.00</span>
+        </div>
+        <div class="card">
+          <img src="./images/logo/product8.png" alt="" width="90%" />
+          <p>Kids Toy</p>
+          <a href="">Charging Car</a>
+          <br /><br />
+          <span>$150.00</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Top Product -->
+
+    <div class="top-product">
+      <div class="treding">
+        <span>Popular Item in the market</span>
+        <h1>Top <strong> Product</strong></h1>
+      </div>
+
+      <div class="produkt-pro">
+        <div class="produkt-top-gallery">
+          <div class="cart-prod">
+            <div class="min-card">
+              <img src="./images/produkt/produkt1.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+            <div class="min-card">
+              <img src="./images/produkt/produkt2.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+            <div class="min-card">
+              <img src="./images/produkt/produkt3.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+          </div>
+
+          <div class="cart-prod">
+            <div class="min-card">
+              <img src="./images/produkt/produkt4.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+            <div class="min-card">
+              <img src="./images/produkt/produkt5.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+            <div class="min-card">
+              <img src="./images/produkt/produkt6.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+          </div>
+
+          <div class="cart-prod">
+            <div class="min-card">
+              <img src="./images/produkt/produkt7.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+            <div class="min-card">
+              <img src="./images/produkt/produkt8.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+            <div class="min-card">
+              <img src="./images/produkt/produkt9.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+          </div>
+
+          <div class="cart-prod">
+            <div class="min-card">
+              <img src="./images/produkt/produkt10.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+            <div class="min-card">
+              <img src="./images/produkt/produkt11.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+            <div class="min-card">
+              <img src="./images/produkt/produkt12.png" alt="" />
+              <figcaption>$170.00</figcaption>
+              <blockquote>Gray Coffee Cup</blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Update Form -->
+
+    <div class="update">
+      <div class="form">
+        <h2>GET UPDATE FROM ANYWHERE</h2>
+        <p>Bearing Void gathering light light his eavening unto dont afraid</p>
+        <form action="">
+          <input
+            type="email"
+            class="focus"
+            name=""
+            id=""
+            placeholder="Enter your email"
+          />
+          <button type="submit" class="subscribe">Subscribe Now</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Menu -->
+
+    <footer>
+      <div class="our-mission">
+        <h2>Our Mission</h2>
+        <p>
+          So seed seed green that winged cattle in. Gathering thing made fly
+          you're no divided deep moved us lan Gathering thing us land years
+          living. So seed seed green that winged cattle in. Gathering thing made
+          fly you're no divided deep moved So seed seed green that winged cattle
+          in. Gathering thing made fly you're no divided deep moved us lan
+          Gathering thing us land years living.
+        </p>
+      </div>
+      <div class="quick-links">
+        <h2>Quick Links</h2>
+        <a href="">Home</a>
+        <a href="">Shop</a>
+        <a href="">Blog</a>
+        <a href="">Product</a>
+        <a href="">Brand</a>
+        <a href="">Contact</a>
+      </div>
+      <div class="gallery">
+        <h2>Gallery</h2>
+        <img src="./images/g1.png" alt="" />
+        <img src="./images/g2.png" alt="" />
+        <img src="./images/g3.png" alt="" />
+        <img src="./images/g4.png" alt="" />
+        <img src="./images/g5.png" alt="" />
+        <img src="./images/g6.png" alt="" />
+      </div>
+      <div class="contact-menu">
+        <h1 class="cont">Contact Us</h1>
+        <div class="contact">
+          <a href=""><i class="bi bi-telegram"></i>Head Office</a>
+          <h4>123, Main Street, Your City</h4>
+        </div>
+        <div class="phone">
+          <a href=""
+            ><i class="bi bi-telephone-fill"></i>
+            <h3>Phone Number</h3></a
+          >
+          <h4>+123 456 7890</h4>
+          <h4>+123 456 7890</h4>
+        </div>
+        <div class="email">
+          <a href=""
+            ><i class="bi bi-envelope-open-fill"></i>
+            <h3>Email</h3></a
+          >
+          <h4>free@infoexample.com</h4>
+          <h4>www.infoexample.com</h4>
+        </div>
+      </div>
+    </footer>
+    <address>
+      Copyright ©2022 All rights reserved | This template is made with &hearts;
+      by A&M
+    </address>
+
+    <script src="./JS/drop-down-.js"></script>
+  </body>
+</html>

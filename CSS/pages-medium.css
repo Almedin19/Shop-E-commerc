@@ -1,0 +1,246 @@
+@media (min-width: 570px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .end-menu {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #burger {
+    font-size: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 60px;
+    float: right;
+    color: blue;
+    display: block;
+  }
+
+  .blu {
+    color: blue;
+  }
+
+  #list {
+    display: none;
+    position: relative;
+    right: 260px;
+    bottom: 20px;
+    margin-bottom: 50px;
+    float: right;
+    margin: 0px auto;
+  }
+
+  #list,
+  li,
+  a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    margin: 10px;
+    color: rgb(28, 51, 75);
+  }
+
+  #list a:hover {
+    border-bottom: 3px solid dodgerblue;
+  }
+
+  .logo {
+    padding: 20px;
+  }
+
+  .logo b {
+    font-size: 24px;
+    position: relative;
+    bottom: 10px;
+  }
+
+  /* Main menu  */
+
+  .pesto-cat {
+    width: 100%;
+    display: flex;
+  }
+
+  .pesto-container {
+    width: 100%;
+    height: 330px;
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pesto-container .home-sh {
+    position: relative;
+    right: 60px;
+    top: 40px;
+    color: rgb(142, 141, 141);
+  }
+
+  .pesto-container h1 {
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 50px;
+  }
+
+  /* Contact Menu */
+
+  .pages-contact-menu {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .first-contact-menu {
+    color: white;
+    height: 400px;
+    text-align: center;
+    width: 100%;
+    min-width: 570;
+    line-height: 50px;
+    background-color: rgb(51, 51, 162);
+  }
+
+  .first-contact-menu p {
+    padding: 20px;
+    color: white;
+  }
+
+  .first-contact-menu a {
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+  }
+
+  .first-contact-menu a:hover {
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+  }
+
+  .second-contact-menu {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 20px 0px #858585;
+  }
+
+  .second-contact-menu h2 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .form-contact-page {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .form-contact-page input {
+    margin: 10px;
+  }
+
+  .form-contact-page .inp-user {
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid darkgray;
+    width: 400px;
+  }
+  .form-contact-page .inp-pass {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 50px;
+  }
+
+  .contact-login {
+    margin: 20px;
+    width: 390px;
+    padding: 10px;
+    background-color: rgb(51, 51, 162);
+    color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(51, 51, 162);
+  }
+
+  .form-contact-page a {
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  /* Footer menu */
+
+  footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 50px;
+    background-color: rgb(11, 11, 79);
+  }
+
+  .our-mission {
+    padding: 50px;
+    color: white;
+  }
+
+  .quick-links a {
+    display: block;
+    color: white;
+  }
+
+  .quick-links h2 {
+    color: white;
+  }
+
+  .quick-links a:hover {
+    color: dodgerblue;
+  }
+
+  .gallery {
+    padding: 50px;
+  }
+
+  .gallery h2 {
+    color: white;
+  }
+
+  .contact-menu h1 {
+    color: white;
+    line-height: 80px;
+  }
+
+  .contact a,
+  h3,
+  h4 {
+    color: white;
+  }
+
+  .contact a,
+  h3 {
+    display: inline;
+    color: white;
+  }
+
+  address {
+    background-color: rgb(39, 39, 101);
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+}

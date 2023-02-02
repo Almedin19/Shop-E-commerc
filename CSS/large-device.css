@@ -1,0 +1,469 @@
+@media (min-width: 1000px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #burger {
+    display: none;
+  }
+
+  #list {
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    left: 0px;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .end-menu {
+    display: block;
+  }
+
+  .end-menu i {
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .end-menu i:hover {
+    color: dodgerblue;
+  }
+
+  .end-menu .btn-buy {
+    padding: 15px;
+    border-radius: 30px;
+    background: none;
+    color: rgb(12, 12, 12);
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    width: 130px;
+  }
+
+  .end-menu .btn-buy:hover {
+    border-color: darkblue;
+    color: black;
+  }
+
+  /* Main menu  */
+
+  .slider1 img {
+    width: 350px;
+    position: relative;
+    left: 0px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .shop-speech {
+    width: 500px;
+    line-height: 35px;
+    position: relative;
+    right: 130px;
+  }
+
+  .shop-speech h3 {
+    color: black;
+    display: block;
+  }
+
+  .empty {
+    height: 600px;
+    position: relative;
+    right: 230px;
+  }
+
+  /* First Slider  */
+  /* //////////////////////////////////////////////////////////// */
+  nav {
+    width: 100%;
+  }
+  .picture img {
+    width: 100%;
+    cursor: grabbing;
+  }
+  ::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: none;
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    border-radius: 50px;
+  }
+
+  /* //////////////////////////////////////////////////////////// */
+  /*Aside Treding  */
+
+  aside {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  aside .treding {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .treding strong {
+    border-bottom: 2px solid blue;
+  }
+
+  .treding h1 strong {
+    font-size: 45px;
+  }
+  .card img:hover {
+    opacity: 0.5;
+    width: 200px;
+  }
+
+  aside .card-gallery {
+    margin-top: 50px;
+    margin: 0px auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+
+  /* Reklam Slide  */
+
+  .reklam {
+    background: rgb(148, 187, 233);
+    background: radial-gradient(
+      circle,
+      rgba(148, 187, 233, 1) 0%,
+      rgba(78, 104, 195, 1) 100%
+    );
+    margin-top: 50px;
+    width: 100%;
+
+    text-align: center;
+  }
+
+  marquee {
+    text-align: center;
+  }
+
+  .rekalm-design {
+    padding: 30px;
+  }
+  .shop {
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(68, 68, 212);
+    color: white;
+    border: 2px solid rgb(68, 68, 212);
+    cursor: pointer;
+    width: 130px;
+    margin-top: 10px;
+  }
+
+  .shop:hover {
+    background: none;
+    color: black;
+  }
+
+  /* Section Slider */
+
+  .slider-treding-second {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .treding-second h1 strong {
+    font-size: 45px;
+  }
+
+  .slider-treding-second .treding-second {
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  .treding-second strong {
+    border-bottom: 2px solid blue;
+  }
+
+  /* Slider section*/
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1300px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    text-align: center;
+  }
+
+  .mySlides img {
+    width: 50%;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    transition: 2s;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .text a {
+    color: black;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Latest NEws-Blog  */
+
+  .latest-news {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .treding-third {
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+
+  .treding-third h1 strong {
+    border-bottom: 2px solid blue;
+  }
+
+  .treding h1 strong {
+    font-size: 65px;
+  }
+
+  .menu_blog-2 {
+    margin-top: 50px;
+    margin: 0px auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+
+  /* Update Form */
+
+  .update {
+    width: 100%;
+    position: relative;
+    top: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+
+  .update .form {
+    margin-top: 0px;
+    padding: 150px;
+    margin: 0px auto;
+    width: 70%;
+    height: 350px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 70px 0px rgb(184, 181, 181);
+  }
+
+  form {
+    padding: 30px;
+    margin: 0px auto;
+  }
+
+  form,
+  p {
+    color: #717171;
+  }
+
+  input[type="email"] {
+    width: 400px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+    outline: none;
+  }
+  input[type="email"]:focus {
+    border: 3px solid dodgerblue;
+  }
+
+  .subscribe {
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(50, 89, 232);
+    border: 1px solid rgb(50, 89, 232);
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  .subscribe:hover {
+    background: none;
+    color: black;
+  }
+
+  /* Footer menu */
+
+  footer {
+    width: 100%;
+    background-color: rgb(11, 11, 79);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  .our-mission {
+    margin-left: 50px;
+    line-height: 30px;
+  }
+
+  .our-mission h2 {
+    color: white;
+  }
+
+  .quick-links a {
+    display: block;
+    color: whitesmoke;
+  }
+
+  .quick-links h2 {
+    color: white;
+  }
+
+  .quick-links a:hover {
+    color: dodgerblue;
+  }
+
+  .gallery {
+    width: 200px;
+  }
+
+  .gallery h2 {
+    color: white;
+  }
+
+  .gallery img {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .contact-menu h1 {
+    color: white;
+    line-height: 80px;
+  }
+
+  .contact a,
+  h3,
+  h4 {
+    color: white;
+  }
+
+  .contact a,
+  h3 {
+    display: inline;
+    color: white;
+  }
+
+  address {
+    background-color: rgb(39, 39, 101);
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+}

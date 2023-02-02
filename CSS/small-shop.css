@@ -1,0 +1,430 @@
+@media (max-width: 570px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .end-menu {
+    display: none;
+  }
+
+  .all-in-one {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #burger {
+    font-size: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 60px;
+    float: right;
+    color: blue;
+    display: block;
+  }
+
+  .blu {
+    color: blue;
+  }
+
+  #list {
+    display: none;
+    position: relative;
+    right: 90px;
+    bottom: 20px;
+    margin-bottom: 50px;
+    float: right;
+  }
+
+  #list,
+  li,
+  a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    margin: 10px;
+    color: rgb(28, 51, 75);
+  }
+
+  #list a:hover {
+    border-bottom: 3px solid dodgerblue;
+  }
+
+  .logo {
+    padding: 20px;
+  }
+
+  .logo b {
+    font-size: 24px;
+    position: relative;
+    bottom: 10px;
+  }
+
+  /* Main menu  */
+
+  /* .slider1 {
+      display: none;
+    } */
+
+  .pesto-cat {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+  }
+
+  .pesto-container {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .pesto-container .home-sh {
+    color: darkgray;
+  }
+
+  .pesto-container h1 {
+    color: black;
+  }
+
+  /* Raadio menu */
+
+  aside {
+    width: 100%;
+  }
+
+  .range-menu {
+    margin: 0px auto;
+    width: 90%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
+
+  .range-menu h1 {
+    background-color: rgb(25, 115, 205);
+    color: whitesmoke;
+    margin-top: 0px;
+    position: relative;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid rgb(25, 115, 205);
+  }
+
+  .range-link {
+    padding: 30px;
+    text-align: left;
+  }
+
+  .range-link a {
+    line-height: 40px;
+  }
+
+  input[type="radio"] {
+    margin-right: 20px;
+  }
+
+  /* Section menu */
+
+  section {
+    width: 100%;
+  }
+
+  .section-menu {
+    margin: 0px auto;
+    width: 90%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
+
+  .section-menu h1 {
+    background-color: rgb(25, 115, 205);
+    color: whitesmoke;
+    margin-top: 0px;
+    position: relative;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid rgb(25, 115, 205);
+  }
+
+  .section-range {
+    padding: 30px;
+    text-align: left;
+  }
+
+  .section-range a {
+    line-height: 40px;
+  }
+
+  input[type="radio"] {
+    margin-right: 20px;
+  }
+
+  .default {
+    width: 130px;
+    padding: 7px;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    border: 3px solid lightgray;
+    color: darkgray;
+  }
+
+  .show {
+    width: 100px;
+    padding: 7px;
+    position: relative;
+    border: 3px solid lightgray;
+    color: darkgray;
+    top: 10px;
+  }
+
+  .default:focus {
+    border: 3px solid lightgray;
+  }
+
+  .show:focus {
+    border: 3px solid lightgray;
+  }
+
+  .search {
+    position: relative;
+    top: 30px;
+  }
+
+  .text-search {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+
+  .search i {
+    position: relative;
+    bottom: 40px;
+    left: 200px;
+    color: darkgray;
+    font-size: 20px;
+  }
+
+  /* Aside Treding */
+
+  aside {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  aside .treding {
+    text-align: center;
+  }
+
+  .treding strong {
+    border-bottom: 2px solid blue;
+  }
+
+  .treding h1 strong {
+    font-size: 35px;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  .card span {
+    font-size: 20px;
+    color: #717171;
+    font-weight: bold;
+  }
+
+  .card a {
+    color: black;
+  }
+
+  .card a:hover {
+    color: dodgerblue;
+  }
+
+  /* Top products */
+
+  .top-product {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  .produkt-pro {
+    width: 100%;
+    margin-top: 50px;
+    margin: 0px auto;
+  }
+
+  .cart-prod {
+    width: 80%;
+    border: 1px solid lightgray;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px lightgray;
+    margin-bottom: 20px;
+  }
+
+  .cart-prod img {
+    width: 20%;
+    margin-right: 10px;
+  }
+
+  .cart-prod blockquote {
+    position: relative;
+    left: 40px;
+    bottom: 80px;
+    font-size: 20px;
+  }
+
+  /* Update menu */
+
+  .update {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .update .form {
+    margin: 0px auto;
+    width: 90%;
+    height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 70px 0px rgb(184, 181, 181);
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  .form p {
+    display: none;
+  }
+
+  input[type="email"] {
+    padding: 7px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+
+  input[type="email"]:focus {
+    border: 3px solid dodgerblue;
+  }
+
+  .subscribe {
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(50, 89, 232);
+    border: 1px solid rgb(50, 89, 232);
+  }
+
+  .subscribe:hover {
+    background: none;
+    color: black;
+  }
+
+  /* Footer Menu */
+  footer {
+    width: 100%;
+    background-color: rgb(19, 19, 76);
+    color: white;
+  }
+
+  footer .our-mission {
+    padding: 20px 40px;
+  }
+
+  .our-mission p {
+    line-height: 30px;
+  }
+
+  footer .quick-links {
+    padding: 20px 40px;
+  }
+
+  .quick-links p {
+    color: lightgray;
+  }
+
+  .quick-links a {
+    display: block;
+    color: lightgray;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .gallery {
+    padding: 20px 40px;
+  }
+
+  .cont {
+    padding: 20px;
+  }
+
+  .contact {
+    padding: 20px 40px;
+  }
+
+  .contact a {
+    font-size: 25px;
+    color: lightgray;
+  }
+
+  .contact i {
+    font-size: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: none;
+  }
+
+  .phone {
+    padding: 20px 40px;
+  }
+
+  .phone a {
+    font-size: 25px;
+    color: lightgray;
+  }
+
+  .phone i {
+    font-size: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: none;
+  }
+
+  .email {
+    padding: 20px 40px;
+  }
+
+  .email a {
+    font-size: 25px;
+    color: lightgray;
+  }
+
+  .email i {
+    font-size: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: none;
+  }
+
+  address {
+    background-color: rgb(39, 39, 101);
+    color: white;
+    padding: 20px;
+  }
+}
